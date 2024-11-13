@@ -6,12 +6,14 @@ authors = ["Aislan Freitas <aislansf@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "~3.10"
+httpcore = "1.0.5"
 jupyterlab = "^4.3.0"
 scikit-learn = "^1.5.2"
 seaborn = "^0.13.2"
 mkdocs = "^1.6.1"
 invoke = "^2.2.0"
 streamlit = "^1.40.0"
+
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
